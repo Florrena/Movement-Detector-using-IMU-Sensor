@@ -49,7 +49,12 @@ After the preparation i run the model and got results which looked as followed:
 
 **WORK IN PROGRESS**
 
-License
+`UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use zero_division parameter to control this behavior.`
+
+I got this error which suggest that that the dataset might be too small for the model to learn effectively. Since even after adding noise and augmentation to my data (`preparation.ipynb` file) the error still occured, my next step is to take care of the data. I plan to recollect data with longer recording durations - approximately 2 minutes per movement type.
+This should increase the dataset size from ~13,000 samples to ~50,000, which can help with training and reducing the risk of overfitting or underperformance.
+
+#### License
 `@misc{zhang2024unimtsunifiedpretrainingmotion,
       title={UniMTS: Unified Pre-training for Motion Time Series}, 
       author={Xiyuan Zhang and Diyan Teng and Ranak Roy Chowdhury and Shuheng Li and Dezhi Hong and Rajesh K. Gupta and Jingbo Shang},
