@@ -36,19 +36,18 @@ All preprocessing steps are available in:
 - `preparation.ipynb`
 
 Training and fine-tuning were done using Weights & Biases (wandb.ai)
-After the preparation i run the model and got results which looked as followed:
-
-Accuracy on train test set **before** fine-tuning the model.
+After the preparation i run the model and got results which looked as followed:  
+1. Accuracy on train test set **before** fine-tuning the model.
 ![image](https://github.com/user-attachments/assets/9833fa1a-24a3-4a35-9732-11e4599a5933)
 
-Accuracy on train test set **after** fine-tuning the model.
+2. Accuracy on train test set **after** fine-tuning the model.
 ![image](https://github.com/user-attachments/assets/6c615a72-b57c-47a8-b5fc-7ca5309231df)
 
-Model performance on validation data after tuning it with test data set.
+3. Model performance on validation data after tuning it with test data set.
 ![image](https://github.com/user-attachments/assets/b680db23-bc68-4fe4-bb89-57faf33e733c)
 
 
-WORK IN PROGRESS
+**WORK IN PROGRESS**
 
 License
 `@misc{zhang2024unimtsunifiedpretrainingmotion,
