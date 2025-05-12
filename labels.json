@@ -1,0 +1,8 @@
+{
+    "label_dictionary": {
+        "0": ["walking"],
+        "1": ["standing"],
+        "2": ["jogging"],
+        "3": ["running"]
+    }
+}
