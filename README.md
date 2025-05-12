@@ -5,7 +5,7 @@ This project predicts types of movement using IMU sensor data (accelerometer and
 This repository demonstrates how to collect, preprocess, and classify movement data using an IMU sensor. The data is collected via a mobile app, processed and put into the UniMTS deep learning model for classification.
 
 ## 2. Data Collection & Preparation
-I collected the data from free android/IOS app called "Sensor Logger" that tracks your activity. With this app i recorded 4 different movements in outdoor environment, each for 30 seconds (Which turned out to be around 13k of data, which after windowing and splitting the data turned out to be not enough to train my model correctly WILL BE UPDATED) - standing, walking, jogging and running. I retried it couple of times but in the end i chose the ones that were collected during a more natural sessions, making it more representative of real-world conditions.
+I collected the data from free android/IOS app called "Sensor Logger" that tracks your activity. With this app i recorded 4 different movements in outdoor environment, each for 30 seconds (Which turned out to be around 13k of data, which after windowing and splitting the data turned out to be not enough to train my model correctly **WILL BE UPDATED**) - standing, walking, jogging and running. I retried it couple of times but in the end i chose the ones that were collected during a more natural sessions, making it more representative of real-world conditions.
 Each data point includes readings from accelerometer and gyroscope.
 ![image](https://github.com/user-attachments/assets/29eadee0-1518-4a28-a6f1-afee65f6ff6b)
 Each data point contains 6 IMU features:
